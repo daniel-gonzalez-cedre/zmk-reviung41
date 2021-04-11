@@ -70,10 +70,10 @@
 //                        |     |     |     |     |     |
 //
                         bindings = <
-   &to 0  &kp N1       &kp N2      &kp N3   &kp N4   &kp N5         &kp N6    &kp N7   &kp N8    &kp N9    &kp N0    &kp DEL
-   &trans &none        &none       &none    &none    &none          &none     &none    &none     &none     &none     &none
-   &trans &bootloader  &none       &none    &none    &none          &none     &none    &none     &none     &none     &none
-                               &none      &none       &trans        &none       &trans
+   &to 0   &kp N1       &kp N2      &kp N3   &kp N4   &kp N5         &kp N6    &kp N7   &kp N8    &kp N9    &kp N0    &kp DEL
+   &trans  &none        &none       &none    &none    &none          &none     &none    &none     &none     &none     &none
+   &bt CLR &bootloader  &none       &none    &none    &none          &none     &none    &none     &none     &none     &none
+                                &none      &none       &trans        &none       &trans
                         >;
                 };
 
